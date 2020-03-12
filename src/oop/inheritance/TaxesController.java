@@ -10,4 +10,9 @@ public class TaxesController implements IResident {
     public float getTaxDiscountRate() {
         return 0;
     }
+
+    @Override
+    public float getIncomeTaxRate() {
+        return 0;
+    }
 }

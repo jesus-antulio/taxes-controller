@@ -1,6 +1,6 @@
 package oop.inheritance;
 
-public class Resident extends ITaxable implements IResident{
+public class Resident implements IResident{
 
     @Override
     public float getTaxDiscountRate() {
