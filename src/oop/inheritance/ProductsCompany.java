@@ -1,4 +1,4 @@
 package oop.inheritance;
 
-public class ProductsCompany {
+public class ProductsCompany extends Company {
 }
